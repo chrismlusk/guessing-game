@@ -1,0 +1,114 @@
+//
+// Wrapper and main class
+// ======================
+
+.user-guess {
+  align-items: center;
+  background-color: rgba($white, .15);
+  color: $gray-c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1.5vw;
+  opacity: .15;
+  padding: 1.5vw .75vw;
+  transition: $transition-base;
+
+  &.is-active {
+    box-shadow: 0 8px 42px rgba($black, 0.2);
+    opacity: 1;
+    transform: translateY(-.125rem);
+  }
+
+  &.is-incorrect {
+    animation: shake 0.5s;
+  }
+
+  &.is-freezing {
+    background-color: rgba($blue, .24);
+  }
+
+  &.is-cold {
+    background-color: rgba($blue, .075);
+  }
+
+  &.is-warm {
+    background-color: rgba($red, .125);
+  }
+
+  &.is-hot {
+    background-color: rgba($red, .32);
+  }
+}
+
+
+
+
+//
+// Row and heading
+// ===============
+
+.user-guess-row {
+  margin-left: -1.5vw;
+  margin-right: -1.5vw;
+  // animation: fade 2s ease-out -.65s;
+}
+
+.user-guess-heading {
+  color: $gray-6;
+  font-weight: $font-weight-bold;
+  letter-spacing: .075rem;
+  margin-top: 3vw;
+  position: relative;
+  text-transform: uppercase;
+  // animation: fade 2s ease-out -.65s;
+
+  &::after {
+    background-color: rgba($white, .075);
+    content: '';
+    height: 1px;
+    position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+    transform: translateY(-50%);
+    z-index: -1;
+  }
+
+  span {
+    background-color: $body-bg;
+    padding-right: 1.25vw;
+  }
+}
+
+
+
+//
+// Elements
+// ========
+
+.user-guess-number {
+  font-size: 12vw;
+  font-weight: 100;
+  line-height: 1;
+  margin: .75vw 0 1.5vw;
+
+  @include media-breakpoint-up(md) {
+    font-size: 7vw;
+  }
+}
+
+.user-guess-hint {
+  opacity: 0;
+  transition: $transition-base;
+
+  .is-active & {
+    opacity: 1;
+  }
+
+  @include media-breakpoint-up(md) {
+    font-size: 2vw;
+    letter-spacing: .75vw;
+    padding-left: .75vw;
+  }
+}

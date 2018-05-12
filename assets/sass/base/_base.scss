@@ -1,0 +1,73 @@
+html { min-height: 100% }
+
+
+
+
+//
+// Body
+// ====
+
+body {
+  position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  background-image: radial-gradient($yellow, $red, $blue);
+  background-size: 200% 200%;
+  background-position: 0 0;
+  animation: border 10s linear infinite;
+  border: 2.5vw solid $body-bg;
+
+  &::after {
+    content: "";
+    background-color: $body-bg;
+    position: absolute;
+      top: 0.5vw;
+      right: 0.5vw;
+      bottom: 0.5vw;
+      left: 0.5vw;
+  }
+}
+
+
+
+
+//
+// Inline
+// ======
+
+a {
+
+  @include plain-visited {
+    color: $link-color;
+    transition: $transition-base;
+  }
+
+  @include hover-focus {
+    color: $link-hover-color;
+  }
+
+  &:focus {
+    outline: $link-focus-outline-width $link-focus-outline-style $link-focus-outline-color;
+  }
+}
+
+
+
+
+//
+// Block
+// =====
+
+blockquote,
+p,
+ol,
+ul {
+  margin-bottom: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}

@@ -1,0 +1,60 @@
+// ============================================================================
+//
+//  [Table of Contents]
+//
+//  - Wrapper and base class
+//  - Dropdown toggle
+//  - Dropdown menu
+//  - Dropdown item
+//
+// ============================================================================
+
+
+
+
+//
+// Wrapper and base class
+// ======================
+
+// .dropdown {}
+
+
+
+
+//
+// Dropdown toggle
+// ===============
+
+// .dropdown-toggle {}
+
+
+
+
+//
+// Dropdown menu
+// =============
+
+// .dropdown-menu {}
+
+
+
+
+//
+// Dropdown item
+// =============
+
+.dropdown-item {
+
+  @include plain-visited {
+    color: $dropdown-link-color;
+  }
+
+  @include hover-focus {
+    color: $dropdown-link-hover-color;
+  }
+
+  &.active,
+  &:active {
+    color: $dropdown-link-active-color;
+  }
+}

@@ -1,0 +1,18 @@
+.form-control,
+.form-btn {
+
+  @include media-breakpoint-up(md) {
+    font-size: 1.75vw;
+    padding: 2.25vw;
+  }
+}
+
+.form-control::placeholder {
+  font-weight: $font-weight-light;
+}
+
+.form-text {
+  @include media-breakpoint-up(lg) {
+    font-size: 1.125vw;
+  }
+}

@@ -1,0 +1,44 @@
+@keyframes spin-around {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes border {
+  0% { background-position: 0 0; }
+  20% { background-position: 100% 0; }
+  40% { background-position: 100% 100%; }
+  60% { background-position: 0 100%; }
+  100% { background-position: 0 0; }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  10%, 30%, 50%, 70%, 90% { transform: translate3d(-5px, 1px, 0); }
+  20%, 40%, 60%, 80% { transform: translate3d(5px, -1px, 0); }
+}
+
+@keyframes intro {
+  0%, 75% { transform: translateX(-100vw); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes fade {
+  0%, 75% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes reveal {
+  0%, 50% {
+    opacity: 0;
+    width: 0;
+  }
+
+  100% {
+    opacity: 1;
+    width: 100%;
+  }
+}

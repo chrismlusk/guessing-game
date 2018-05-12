@@ -1,0 +1,7 @@
+.btn {
+
+  @include media-breakpoint-up(lg) {
+    font-size: 1.25vw;
+    padding: .875vw 1.125vw;
+  }
+}

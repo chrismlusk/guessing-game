@@ -1,0 +1,20 @@
+.main {
+  display: flex;
+  overflow: hidden;
+  padding: 1rem 0;
+  position: absolute;
+  top: .5vw;
+    right: .5vw;
+    bottom: .5vw;
+    left: .5vw;
+  z-index: 9;
+  // animation: intro 1.5s cubic-bezier(0.5, 0, 0.25, 1.3) -1s 1;
+
+  @include media-breakpoint-up(md) {
+    padding: 2.5vw;
+  }
+
+  @include media-breakpoint-up(lg) {
+    align-items: center;
+  }
+}
