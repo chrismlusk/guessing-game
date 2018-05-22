@@ -24,19 +24,17 @@
         <div class="col-lg-6">
           <div class="card  my-3 my-lg-0">
             <div class="card-body">
-              <form>
-                <div class="input-group">
-                  <input type="number" id="userGuess" class="form-control form-control-lg" placeholder="Pick a number from 1 to 100" min="1" max="100" required autofocus>
-                  <div class="input-group-append">
-                    <button class="btn btn-primary  form-btn" type="button">🚀 Go!</button>
-                  </div>
+              <div class="input-group">
+                <input type="number" id="userGuess" class="form-control form-control-lg" placeholder="Pick a number from 1 to 100" min="1" max="100" required autofocus>
+                <div class="input-group-append">
+                  <button class="btn btn-primary  js-submit-user-guess" type="button">🚀 Go!</button>
                 </div>
-                <small class="form-text text-muted">Your guess must be between 1 and 100.</small>
-              </form>
+              </div>
+              <small class="form-text text-muted">Your guess must be between 1 and 100.</small>
             </div>
             <div class="card-footer  d-flex justify-content-between">
-              <button class="btn btn-secondary" title="Get a hint">👻 Help Me</button>
-              <button class="btn btn-secondary" onclick="history.go(0)" title="Reload page">☠️ Start Over</button>
+              <button class="btn btn-secondary  js-get-hint" title="Get a hint">👻 Help Me</button>
+              <button class="btn btn-secondary  js-reset-game" title="Reload page">☠️ Start Over</button>
             </div>
           </div>
         </div>
@@ -84,5 +82,8 @@
   </main>
 
   <footer class="footer"></footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="assets/js/app.min.js"></script>
 </body>
 </html>

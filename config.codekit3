@@ -55,6 +55,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/js\/app.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/app.min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 1
+		},
 	"\/assets\/sass\/abstracts\/_animations.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2031,7 +2041,7 @@
 		},
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 1,
+	"esLintEnvironmentsMask": 8211,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
@@ -2342,7 +2352,7 @@
 			"optionString": "{'allowParens': false}"
 			},
 		"no-console": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
