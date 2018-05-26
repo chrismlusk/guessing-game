@@ -9,6 +9,7 @@
     left: .5vw;
   z-index: 9;
   // animation: intro 1.5s cubic-bezier(0.5, 0, 0.25, 1.3) -1s 1;
+  animation: fade 1.8s cubic-bezier(0.5, 0, 0.25, 1.3) -1s 1;
 
   @include media-breakpoint-up(md) {
     padding: 2.5vw;
