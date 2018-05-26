@@ -137,14 +137,6 @@
   80% { transform: translateX(0) }
 }
 
-
-
-
-// @keyframes intro {
-//   0%, 75% { transform: translateX(-100vw); }
-//   100% { transform: translateX(0); }
-// }
-
 @keyframes fade {
   0%, 75% { opacity: 0; }
   100% { opacity: 1; }
@@ -156,10 +148,8 @@
     transform: translateY(100vw);
   }
 
-  95% { transform: translateY(0); }
-
   100% {
     opacity: 1;
-    // transform: translateY(0);
+    transform: translateY(0);
   }
 }

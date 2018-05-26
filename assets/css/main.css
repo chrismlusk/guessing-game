@@ -635,22 +635,20 @@
     opacity: 0;
     -webkit-transform: translateY(100vw);
             transform: translateY(100vw); }
-  95% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0); }
   100% {
-    opacity: 1; } }
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0); } }
 
 @keyframes intro {
   0%, 75% {
     opacity: 0;
     -webkit-transform: translateY(100vw);
             transform: translateY(100vw); }
-  95% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0); }
   100% {
-    opacity: 1; } }
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0); } }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
@@ -5336,8 +5334,8 @@ h1 {
     -webkit-animation: tada 1s;
             animation: tada 1s;
     background-color: rgba(40, 167, 69, 0.8);
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(40, 167, 69, 0.8)), to(rgba(40, 167, 69, 0.8))), url("http://bestanimations.com/Holidays/Fireworks/fireworks-animation-9.gif") center center no-repeat;
-    background: linear-gradient(rgba(40, 167, 69, 0.8), rgba(40, 167, 69, 0.8)), url("http://bestanimations.com/Holidays/Fireworks/fireworks-animation-9.gif") center center no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(40, 167, 69, 0.8)), to(rgba(40, 167, 69, 0.8))), url("../fireworks.gif") center center no-repeat;
+    background: linear-gradient(rgba(40, 167, 69, 0.8), rgba(40, 167, 69, 0.8)), url("../fireworks.gif") center center no-repeat;
     color: #fff; }
     .user-guess-result.is-correct::after {
       -webkit-animation: sonar-effect 1s ease-out;
@@ -5457,34 +5455,4 @@ h1 {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; } }
-
-.footer {
-  font-size: 0.875rem; }
-
-a.footer-link {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.075); }
-  a.footer-link, a.footer-link:visited {
-    color: inherit; }
-  a.footer-link:hover, a.footer-link:focus {
-    border-color: transparent;
-    color: #fff; }
-
-.footer-brand {
-  display: block; }
-
-.footer-credits {
-  color: inherit; }
-  .footer-credits span {
-    display: inline-block; }
-    .footer-credits span:not(:first-of-type) {
-      margin-left: .65rem; }
-
-.footer-lower {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 0.75rem; }
-  .footer-lower a.footer-link, .footer-lower a.footer-link:visited {
-    color: inherit; }
-  .footer-lower a.footer-link:hover, .footer-lower a.footer-link:focus {
-    border-color: transparent;
-    color: rgba(255, 255, 255, 0.85); }
 /*# sourceMappingURL=main.css.map */

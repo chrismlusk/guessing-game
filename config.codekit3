@@ -116,7 +116,7 @@
 		"tS": 0
 		},
 	"\/assets\/sass\/abstracts\/_animations.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -129,7 +129,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/abstracts\/_mixins.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -142,7 +142,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/abstracts\/_variables.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -155,7 +155,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/base\/_base.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -168,7 +168,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/base\/_code.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -181,7 +181,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/base\/_content.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -194,7 +194,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/base\/_grid.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -207,7 +207,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/base\/_images.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -220,7 +220,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/base\/_reset.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -233,7 +233,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/base\/_tables.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -246,7 +246,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/base\/_type.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -259,7 +259,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/components\/_alert.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -272,7 +272,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/components\/_badge.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -285,7 +285,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/components\/_breadcrumb.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -298,7 +298,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/components\/_buttons.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -311,7 +311,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/components\/_card.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -324,7 +324,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/components\/_carousel-flickity.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -337,7 +337,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/components\/_carousel.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -350,7 +350,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/components\/_child-page.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -363,7 +363,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/components\/_close.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -376,7 +376,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/components\/_data-tables.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -389,7 +389,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/components\/_dropdown.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -402,7 +402,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/components\/_forms.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -415,7 +415,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/components\/_jumbotron.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -428,7 +428,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/components\/_list-group.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -441,7 +441,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/components\/_modal.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -454,7 +454,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/components\/_nav.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -467,7 +467,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/components\/_navbar.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -480,7 +480,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/components\/_pagination.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -493,7 +493,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/components\/_panes.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -506,7 +506,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/components\/_popover.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -519,7 +519,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/components\/_progress.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -532,7 +532,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/components\/_tooltip.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -545,7 +545,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/components\/_user-guess.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -558,7 +558,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/layout\/_aside.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -571,7 +571,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/layout\/_footer.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -584,7 +584,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/layout\/_header.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -597,7 +597,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/layout\/_main.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -623,7 +623,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_alert.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -636,7 +636,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_badge.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -649,7 +649,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_breadcrumb.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -662,7 +662,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_button-group.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -675,7 +675,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_buttons.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -688,7 +688,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_card.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -701,7 +701,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_carousel.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -714,7 +714,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_close.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -727,7 +727,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_code.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -740,7 +740,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_custom-forms.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -753,7 +753,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_dropdown.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -766,7 +766,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_forms.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -779,7 +779,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_functions.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -792,7 +792,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_grid.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -805,7 +805,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_images.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -818,7 +818,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_input-group.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -831,7 +831,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_jumbotron.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -844,7 +844,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_list-group.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -857,7 +857,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_media.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -870,7 +870,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_mixins.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -883,7 +883,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_modal.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -896,7 +896,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_nav.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -909,7 +909,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_navbar.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -922,7 +922,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_pagination.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -935,7 +935,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_popover.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -948,7 +948,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_print.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -961,7 +961,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_progress.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -974,7 +974,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_reboot.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -987,7 +987,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_root.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1000,7 +1000,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_tables.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1013,7 +1013,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_tooltip.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1026,7 +1026,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_transitions.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1039,7 +1039,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_type.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1052,7 +1052,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_utilities.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1065,7 +1065,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/_variables.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1078,7 +1078,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/bootstrap.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1091,7 +1091,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_alert.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1104,7 +1104,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_background-variant.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1117,7 +1117,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_badge.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1130,7 +1130,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_border-radius.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1143,7 +1143,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_box-shadow.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1156,7 +1156,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_breakpoints.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1169,7 +1169,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_buttons.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1182,7 +1182,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_caret.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1195,7 +1195,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_clearfix.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1208,7 +1208,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_float.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1221,7 +1221,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_forms.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1234,7 +1234,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_gradients.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1247,7 +1247,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_grid-framework.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1260,7 +1260,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_grid.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1273,7 +1273,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_hover.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1286,7 +1286,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_image.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1299,7 +1299,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_list-group.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1312,7 +1312,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_lists.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1325,7 +1325,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_nav-divider.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1338,7 +1338,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_pagination.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1351,7 +1351,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_reset-text.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1364,7 +1364,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_resize.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1377,7 +1377,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_screen-reader.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1390,7 +1390,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_size.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1403,7 +1403,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_table-row.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1416,7 +1416,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_text-emphasis.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1429,7 +1429,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_text-hide.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1442,7 +1442,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_text-truncate.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1455,7 +1455,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_transition.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1468,7 +1468,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/mixins\/_visibility.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1481,7 +1481,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/utilities\/_align.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1494,7 +1494,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/utilities\/_background.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1507,7 +1507,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/utilities\/_borders.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1520,7 +1520,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/utilities\/_clearfix.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1533,7 +1533,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/utilities\/_display.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1546,7 +1546,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/utilities\/_embed.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1559,7 +1559,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/utilities\/_flex.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1572,7 +1572,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/utilities\/_float.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1585,7 +1585,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/utilities\/_position.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1598,7 +1598,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/utilities\/_screenreaders.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1611,7 +1611,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/utilities\/_shadows.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1624,7 +1624,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/utilities\/_sizing.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1637,7 +1637,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/utilities\/_spacing.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1650,7 +1650,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/utilities\/_text.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1663,7 +1663,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/vendors\/bootstrap\/utilities\/_visibility.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -3609,7 +3609,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
