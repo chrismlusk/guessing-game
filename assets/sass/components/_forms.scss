@@ -1,5 +1,6 @@
 .form-control,
 .form-btn {
+  font-size: 4vw;
 
   @include media-breakpoint-up(md) {
     font-size: 1.75vw;

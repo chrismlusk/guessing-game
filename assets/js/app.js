@@ -12,7 +12,7 @@ class Game {
     this.resultEmoji = '';
     this.hintRange = null;
 
-    console.log(`New game created with ${this.winningNum} as the answer.`);
+    // console.log(`New game created with ${this.winningNum} as the answer.`);
   }
 
   generateWinningNum() {
