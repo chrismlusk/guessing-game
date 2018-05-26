@@ -45,7 +45,7 @@
   &.is-correct {
     animation: tada 1s;
     background-color: rgba($green, .8);
-    background: linear-gradient(rgba($green, .8), rgba($green, .8)), url('../fireworks.gif') center center no-repeat;
+    background: linear-gradient(rgba($green, .8), rgba($green, .8)), url('../img/fireworks.gif') center center no-repeat;
     color: $white;
 
     &::after {
