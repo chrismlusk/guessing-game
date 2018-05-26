@@ -12,29 +12,44 @@
 <body>
   <main class="main">
     <div class="container-fluid">
+      <!-- <div class="row">
+        <div class="col">
+          <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div>
+      </div> -->
       <div class="row  align-items-center">
         <div class="col-lg-6">
           <header class="header">
-            <h1 class="header-title">Guess me <br class="d-none d-lg-block">if you can!</h1>
-            <p class="header-message">I'll give you five chances to pick the right number.</p>
-            <!-- <p class="header-message">Too low! Guess higher ☝🏽</p> -->
-            <!-- <p class="header-message">Guess lower 👇🏽</p> -->
+            <h1 class="header-title">
+              <span class="one">Guess me</span>
+              <span class="two">if you can!</span>
+            </h1>
+            <p class="header-text">
+              <span class="emoji">🖐🏽</span>
+              <span class="message">I'll give you five chances to pick the right number.</span>
+              <span class="hint"></span>
+            </p>
           </header>
         </div>
         <div class="col-lg-6">
-          <div class="card  my-3 my-lg-0">
+          <div class="card  my-3 my-lg-0  js-user-form">
             <div class="card-body">
               <div class="input-group">
-                <input type="number" id="userGuess" class="form-control form-control-lg" placeholder="Pick a number from 1 to 100" min="1" max="100" required autofocus>
+                <input type="number" class="form-control form-control-lg  js-input-guess" placeholder="Pick a number from 1 to 100" min="1" max="100" required autofocus>
                 <div class="input-group-append">
-                  <button class="btn btn-primary  js-submit-user-guess" type="button">🚀 Go!</button>
+                  <button class="btn btn-primary  form-btn  js-submit-guess" type="button">🚀 Go!</button>
                 </div>
               </div>
-              <small class="form-text text-muted">Your guess must be between 1 and 100.</small>
+              <small class="form-text">Your guess must be between 1 and 100.</small>
             </div>
             <div class="card-footer  d-flex justify-content-between">
               <button class="btn btn-secondary  js-get-hint" title="Get a hint">👻 Help Me</button>
-              <button class="btn btn-secondary  js-reset-game" title="Reload page">☠️ Start Over</button>
+              <button class="btn btn-secondary  js-reset-game" title="Reload page">🔄 Start Over</button>
             </div>
           </div>
         </div>
@@ -46,35 +61,33 @@
       </div>
       <div class="row no-gutters  user-guess-row">
         <div class="col-6 col-sm-4 col-lg">
-          <div class="user-guess  is-active  is-freezing">
-            <div class="user-guess-number">8</div>
-            <div class="user-guess-hint">❄️❄️❄️</div>
-          </div>
-        </div>
-        <div class="col-6 col-sm-4 col-lg">
-          <div class="user-guess  is-active  is-cold">
-            <div class="user-guess-number">33</div>
-            <!-- <div class="user-guess-hint">⛄🌨️🍦</div> -->
-            <div class="user-guess-hint">❄️</div>
-          </div>
-        </div>
-        <div class="col-6 col-sm-4 col-lg">
-          <div class="user-guess  is-active  is-hot">
-            <div class="user-guess-number">74</div>
-            <div class="user-guess-hint">🔥🔥️🔥</div>
-          </div>
-        </div>
-        <div class="col-6 col-sm-4 col-lg">
-          <div class="user-guess  is-active  is-warm">
-            <div class="user-guess-number">85</div>
-            <!-- <div class="user-guess-hint">🌶️☕🏖️</div> -->
-            <div class="user-guess-hint">🔥</div>
-          </div>
-        </div>
-        <div class="col-6 col-sm-4 col-lg">
-          <div class="user-guess">
+          <div class="user-guess-result">
             <div class="user-guess-number">?</div>
-            <div class="user-guess-hint">🤔🤔🤔</div>
+            <div class="user-guess-emoji">🤔</div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg">
+          <div class="user-guess-result">
+            <div class="user-guess-number">?</div>
+            <div class="user-guess-emoji">🤔</div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg">
+          <div class="user-guess-result">
+            <div class="user-guess-number">?</div>
+            <div class="user-guess-emoji">🤔</div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg">
+          <div class="user-guess-result">
+            <div class="user-guess-number">?</div>
+            <div class="user-guess-emoji">🤔</div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg">
+          <div class="user-guess-result">
+            <div class="user-guess-number">?</div>
+            <div class="user-guess-emoji">🤔</div>
           </div>
         </div>
       </div>

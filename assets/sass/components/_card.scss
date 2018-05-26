@@ -2,6 +2,10 @@
   box-shadow: 0 4px 84px rgba($black, .32);
   z-index: 10;
   // animation: intro 1.5s cubic-bezier(0.5, 0, 0.25, 1.3) -1s 1;
+
+  &.is-incorrect {
+    animation: shake-sm .5s;
+  }
 }
 
 .card-body,

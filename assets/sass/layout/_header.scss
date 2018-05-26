@@ -2,12 +2,36 @@
   // animation: intro 1.5s cubic-bezier(0.5, 0, 0.25, 1.3) -1s 1;
 }
 
+.header-title {
 
-.header-message {
+  span {
+    @include media-breakpoint-up(lg) {
+      display: block;
+    }
+  }
+}
+
+.header-text {
   font-size: 3.5vw;
   font-weight: $font-weight-light;
 
   @include media-breakpoint-up(lg) {
     font-size: 1.5vw;
   }
+
+  span {
+    display: inline-block;
+  }
+
+  .emoji {
+    transition: $transition-base;
+
+    &.is-animated {
+      animation: point-effect 1s;
+    }
+  }
+
+  .message {}
+
+  .hint {}
 }

@@ -2,42 +2,79 @@
 // Wrapper and main class
 // ======================
 
-.user-guess {
+.user-guess-result {
   align-items: center;
   background-color: rgba($white, .15);
+  background-position: center center;
+  background-repeat: no-repeat;
   color: $gray-c;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 1.5vw;
-  opacity: .15;
+  opacity: .4;
   padding: 1.5vw .75vw;
-  transition: $transition-base;
+  position: relative;
+
+  &::after {
+    box-shadow: 0 0 0 .125rem rgba($white, .1);
+    content: '';
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    transform: scale(.9);
+    z-index: -1;
+  }
 
   &.is-active {
-    box-shadow: 0 8px 42px rgba($black, 0.2);
+    box-shadow: 0 8px 42px rgba($black, .2);
+    color: $gray-e;
     opacity: 1;
-    transform: translateY(-.125rem);
+    top: -.125rem;
+    transition: $transition-base;
   }
 
   &.is-incorrect {
-    animation: shake 0.5s;
+    animation: shake-sm .5s;
   }
 
-  &.is-freezing {
+  &.is-correct {
+    animation: tada 1s;
+    background-color: rgba($green, .8);
+    background: linear-gradient(rgba($green, .8), rgba($green, .8)), url('http://bestanimations.com/Holidays/Fireworks/fireworks-animation-9.gif') center center no-repeat;
+    color: $white;
+
+    &::after {
+      animation: sonar-effect 1s ease-out;
+    }
+  }
+
+  &.is-frozen {
+    animation-name: shake-lg;
     background-color: rgba($blue, .24);
+    background: linear-gradient(rgba($blue, .7), rgba($blue, .62)), url('../img/snow.gif') center center no-repeat;
   }
 
   &.is-cold {
+    animation-name: shake-sm;
     background-color: rgba($blue, .075);
+    background: linear-gradient(rgba($blue, .35), rgba($blue, .3)), url('../img/snow-02.gif') bottom left no-repeat;
   }
 
   &.is-warm {
+    animation-name: shake-sm;
     background-color: rgba($red, .125);
+    background: linear-gradient(rgba($red, .6), rgba($red, .82)), url('../img/flowers.gif') top right no-repeat;
   }
 
   &.is-hot {
+    animation-name: shake-sm;
     background-color: rgba($red, .32);
+    background: linear-gradient(rgba($red, .5), rgba($red, .6)), url('../img/sparks.gif') center center no-repeat;
   }
 }
 
@@ -92,17 +129,19 @@
   font-weight: 100;
   line-height: 1;
   margin: .75vw 0 1.5vw;
+  text-shadow: 0 1px 8px rgba($black, 0.15);
 
   @include media-breakpoint-up(md) {
     font-size: 7vw;
   }
 }
 
-.user-guess-hint {
+.user-guess-emoji {
   opacity: 0;
   transition: $transition-base;
 
   .is-active & {
+    text-shadow: 0 1px 8px rgba($black, .25);
     opacity: 1;
   }
 

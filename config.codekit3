@@ -33,6 +33,22 @@
 		"oAP": "\/assets\/css\/main.css.map",
 		"oF": 0
 		},
+	"\/assets\/img\/fireworks.gif": {
+		"ft": 4194304,
+		"iS": 558067,
+		"oA": 0,
+		"oAP": "\/assets\/img\/fireworks.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/flowers.gif": {
+		"ft": 4194304,
+		"iS": 1839335,
+		"oA": 0,
+		"oAP": "\/assets\/img\/flowers.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/logo-fa.png": {
 		"ft": 32768,
 		"iS": 8010,
@@ -55,6 +71,30 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/snow-02.gif": {
+		"ft": 4194304,
+		"iS": 495644,
+		"oA": 0,
+		"oAP": "\/assets\/img\/snow-02.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/snow.gif": {
+		"ft": 4194304,
+		"iS": 1355378,
+		"oA": 0,
+		"oAP": "\/assets\/img\/snow.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/sparks.gif": {
+		"ft": 4194304,
+		"iS": 135807,
+		"oA": 0,
+		"oAP": "\/assets\/img\/sparks.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/js\/app.js": {
 		"ft": 64,
 		"ma": 0,
@@ -64,6 +104,16 @@
 		"oF": 1,
 		"sC": 3,
 		"tS": 1
+		},
+	"\/assets\/js\/app.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/app.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/assets\/sass\/abstracts\/_animations.scss": {
 		"aP": 0,
