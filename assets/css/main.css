@@ -5290,8 +5290,8 @@ h1 {
       -ms-flex-align: center;
           align-items: center;
   background-color: rgba(255, 255, 255, 0.15);
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
   color: #ced4da;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5304,7 +5304,7 @@ h1 {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 1.5vw;
-  opacity: .4;
+  opacity: .45;
   padding: 1.5vw .75vw;
   position: relative; }
   .user-guess-result::after {
@@ -5335,9 +5335,8 @@ h1 {
   .user-guess-result.is-correct {
     -webkit-animation: tada 1s;
             animation: tada 1s;
-    background-color: rgba(40, 167, 69, 0.8);
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(40, 167, 69, 0.8)), to(rgba(40, 167, 69, 0.8))), url("../img/fireworks.gif") center center no-repeat;
-    background: linear-gradient(rgba(40, 167, 69, 0.8), rgba(40, 167, 69, 0.8)), url("../img/fireworks.gif") center center no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(40, 167, 69, 0.85)), to(rgba(40, 167, 69, 0.85))), url("../img/fireworks.gif") center center;
+    background: linear-gradient(rgba(40, 167, 69, 0.85), rgba(40, 167, 69, 0.85)), url("../img/fireworks.gif") center center;
     color: #fff; }
     .user-guess-result.is-correct::after {
       -webkit-animation: sonar-effect 1s ease-out;
@@ -5345,27 +5344,23 @@ h1 {
   .user-guess-result.is-frozen {
     -webkit-animation-name: shake-lg;
             animation-name: shake-lg;
-    background-color: rgba(13, 116, 255, 0.24);
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(13, 116, 255, 0.7)), to(rgba(13, 116, 255, 0.62))), url("../img/snow.gif") center center no-repeat;
-    background: linear-gradient(rgba(13, 116, 255, 0.7), rgba(13, 116, 255, 0.62)), url("../img/snow.gif") center center no-repeat; }
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(13, 116, 255, 0.76)), to(rgba(13, 116, 255, 0.72))), url("../img/snow.gif") center center;
+    background: linear-gradient(rgba(13, 116, 255, 0.76), rgba(13, 116, 255, 0.72)), url("../img/snow.gif") center center; }
   .user-guess-result.is-cold {
     -webkit-animation-name: shake-sm;
             animation-name: shake-sm;
-    background-color: rgba(13, 116, 255, 0.075);
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(13, 116, 255, 0.35)), to(rgba(13, 116, 255, 0.3))), url("../img/snow-02.gif") bottom left no-repeat;
-    background: linear-gradient(rgba(13, 116, 255, 0.35), rgba(13, 116, 255, 0.3)), url("../img/snow-02.gif") bottom left no-repeat; }
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(13, 116, 255, 0.38)), to(rgba(13, 116, 255, 0.42))), url("../img/snow-02.gif") bottom left;
+    background: linear-gradient(rgba(13, 116, 255, 0.38), rgba(13, 116, 255, 0.42)), url("../img/snow-02.gif") bottom left; }
   .user-guess-result.is-warm {
     -webkit-animation-name: shake-sm;
             animation-name: shake-sm;
-    background-color: rgba(255, 68, 68, 0.125);
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 68, 68, 0.6)), to(rgba(255, 68, 68, 0.82))), url("../img/flowers.gif") top right no-repeat;
-    background: linear-gradient(rgba(255, 68, 68, 0.6), rgba(255, 68, 68, 0.82)), url("../img/flowers.gif") top right no-repeat; }
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 68, 68, 0.72)), to(rgba(255, 68, 68, 0.82))), url("../img/flowers.gif") top right;
+    background: linear-gradient(rgba(255, 68, 68, 0.72), rgba(255, 68, 68, 0.82)), url("../img/flowers.gif") top right; }
   .user-guess-result.is-hot {
     -webkit-animation-name: shake-sm;
             animation-name: shake-sm;
-    background-color: rgba(255, 68, 68, 0.32);
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 68, 68, 0.5)), to(rgba(255, 68, 68, 0.6))), url("../img/sparks.gif") center center no-repeat;
-    background: linear-gradient(rgba(255, 68, 68, 0.5), rgba(255, 68, 68, 0.6)), url("../img/sparks.gif") center center no-repeat; }
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 68, 68, 0.66)), to(rgba(255, 68, 68, 0.78))), url("../img/sparks.gif") center center;
+    background: linear-gradient(rgba(255, 68, 68, 0.66), rgba(255, 68, 68, 0.78)), url("../img/sparks.gif") center center; }
 
 .user-guess-row {
   margin-left: -1.5vw;

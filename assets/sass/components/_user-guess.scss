@@ -5,14 +5,14 @@
 .user-guess-result {
   align-items: center;
   background-color: rgba($white, .15);
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
   color: $gray-c;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 1.5vw;
-  opacity: .4;
+  opacity: .45;
   padding: 1.5vw .75vw;
   position: relative;
 
@@ -44,8 +44,8 @@
 
   &.is-correct {
     animation: tada 1s;
-    background-color: rgba($green, .8);
-    background: linear-gradient(rgba($green, .8), rgba($green, .8)), url('../img/fireworks.gif') center center no-repeat;
+    background: linear-gradient(rgba($green, .85), rgba($green, .85)),
+                url('../img/fireworks.gif') center center;
     color: $white;
 
     &::after {
@@ -55,26 +55,26 @@
 
   &.is-frozen {
     animation-name: shake-lg;
-    background-color: rgba($blue, .24);
-    background: linear-gradient(rgba($blue, .7), rgba($blue, .62)), url('../img/snow.gif') center center no-repeat;
+    background: linear-gradient(rgba($blue, .76), rgba($blue, .72)),
+                url('../img/snow.gif') center center;
   }
 
   &.is-cold {
     animation-name: shake-sm;
-    background-color: rgba($blue, .075);
-    background: linear-gradient(rgba($blue, .35), rgba($blue, .3)), url('../img/snow-02.gif') bottom left no-repeat;
+    background: linear-gradient(rgba($blue, .38), rgba($blue, .42)),
+                url('../img/snow-02.gif') bottom left;
   }
 
   &.is-warm {
     animation-name: shake-sm;
-    background-color: rgba($red, .125);
-    background: linear-gradient(rgba($red, .6), rgba($red, .82)), url('../img/flowers.gif') top right no-repeat;
+    background: linear-gradient(rgba($red, .72), rgba($red, .82)),
+                url('../img/flowers.gif') top right;
   }
 
   &.is-hot {
     animation-name: shake-sm;
-    background-color: rgba($red, .32);
-    background: linear-gradient(rgba($red, .5), rgba($red, .6)), url('../img/sparks.gif') center center no-repeat;
+    background: linear-gradient(rgba($red, .66), rgba($red, .78)),
+                url('../img/sparks.gif') center center;
   }
 }
 
